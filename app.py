@@ -17,8 +17,8 @@ from main_script import load_model
 # ======================================================
 # CONFIG
 # ======================================================
-RF_MODEL_PATH = "randomforest_best.pkl"
-SCALER_PATH = "scaler.pkl"
+RF_MODEL_PATH = "rf_clean.pkl"
+SCALER_PATH = "scaler_clean.pkl"
 FASTER_MODEL_PATH = "fasterrcnn_best.pth"
 THRESHOLD = 0.75  # cosine similarity threshold for phone detection
 
