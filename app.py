@@ -69,7 +69,7 @@ def predict_random_forest(rf, scaler, feature_extractor, transform, device, imag
 st.set_page_config(layout="wide", page_title="Phone Defect Detection (Random Forest)")
 
 st.title("📱 Phone Defect Detection Web App")
-st.write("Ứng dụng dựa trên **Random Forest + ResNet18** để phát hiện lỗi màn hình điện thoại.")
+st.write("Ứng dụng dựa trên **Random Forest** để phát hiện lỗi màn hình điện thoại.")
 
 # Load all models
 rf_model, scaler = get_rf_model()
