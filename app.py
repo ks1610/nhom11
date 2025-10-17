@@ -196,8 +196,7 @@ with col2:
         st.markdown("### 🔎 Kết quả dự đoán:")
         color = "red" if rf_label == "Defective" else "green"
         st.markdown(f"<h4 style='color:{color}'>Kết quả: {rf_label}</h4>", unsafe_allow_html=True)
-        st.write(f"Độ tin cậy: **{rf_conf:.2f}%**")
-
+        
         # --- Show processed image ---
         st.markdown("### 🧩 Ảnh sau khi tiền xử lý:")
         st.image(processed_img, caption="Ảnh đã được Resize + Normalize", use_container_width=True)
